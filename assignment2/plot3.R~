@@ -1,7 +1,0 @@
-setwd("/home/srivasan/exdata_data_NEI_data")
-nei<-readRDS("Source_Classification_Code.rds")
-scc<-readRDS("summarySCC_PM25.rds")
-a1<-subset(scc,scc$fips=="24510")
-png("plot3.png",width=640,height=640)
-qplot(year,Emissions,data=a1,facets=.~type,color=type)
-dev.off()

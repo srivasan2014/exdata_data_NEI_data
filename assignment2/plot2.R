@@ -1,4 +1,3 @@
-setwd("/home/srivasan/exdata_data_NEI_data/assignment2")
 nei<-readRDS("Source_Classification_Code.rds")
 scc<-readRDS("summarySCC_PM25.rds")
 a1<-subset(scc[["Emissions"]],scc$fips=="24510" & scc$year==1999)

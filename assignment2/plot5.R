@@ -1,4 +1,3 @@
-setwd("/home/srivasan/exdata_data_NEI_data/assignment2")
 library(ggplot2)
 nei<-readRDS("Source_Classification_Code.rds")
 scc<-readRDS("summarySCC_PM25.rds")
